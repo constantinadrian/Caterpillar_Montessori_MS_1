@@ -65,3 +65,69 @@ body {
         font-size: 0px;
     }
 }
+
+/* ----------- Footer  ----------- */
+footer {
+    margin-top: 60px;
+    padding: 15px 0 0;
+    color: #fff;
+    background-color: #003049;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-links a:hover {
+    color: #EAE2B7;
+}
+
+.contact-links, .support-links {
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.contact-links-item, .support-links-item {
+    display: block;
+}
+
+.contact-links i {
+    margin-right: 5px;
+}
+
+/* ----------- code and modified from Matt Rudge bootstrap mini project "Resume Project" Code Institute ----------- */
+.social-icon-links li a i {
+    color: #000;
+    background: #EAE2B7;
+    width: 42px;
+    height: 42px;
+    padding-top: 12px;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.social-icon-links li a i:hover {
+    background: #FCBF49;
+    color: #fff;
+}
+
+.footer-copyright {
+    border-top: 1px solid #FCBF49;
+    font-size: 12px;
+}
+
+.footer-copyright-col {
+    padding: 1rem;
+}

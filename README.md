@@ -43,3 +43,41 @@ The purpose of this project was to create a small website for a childcare in ord
     -  Add Sign in page to allow existing users to view the personal updates, photos about their child and to communicate to child teacher more often
 
     -  Send email from Contact Form to the owner of the website 
+
+- #### Technologies Used:
+
+  - ##### Languages:
+
+    - [HTML5](https://en.wikipedia.org/wiki/HTML5) - used to structure website and its content.
+
+    - [CSS3](https://en.wikipedia.org/wiki/CSS) - to format the contents of each webpage.
+
+  - ##### Frameworks, Libraries & Programs:
+
+    - [Bootstrap](https://getbootstrap.com/) – CSS framework used to help with the navbar, carousel, cards
+
+    - [Google Fonts](https://fonts.google.com/) - to import the font-family used in the website: Playfair Display and Courgette
+
+    - [Font Awesome](https://fontawesome.com/) - icons are a visual way to help add meaning to elements.
+
+    - [GitHub](https://github.com/) - used to create and host the repository
+
+    - [Git](https://git-scm.com/) - used for version-control system for tracking changes in any set of files
+
+    - [Gitpod](https://gitpod.io/) - IDE used to develop the project 
+
+  - ##### Additional tools:
+
+    - [VS Code](https://code.visualstudio.com/) - IDE used when Gitpod was having technical issues
+
+    - [Autoprefixer CSS](https://autoprefixer.github.io/) - used to add prefix to css code
+
+    - [Tinypng](https://tinypng.com/) - used to compress all image files in order to reduce loading time on each page
+
+    - [HTML Validator](https://jigsaw.w3.org/css-validator/) - used to check HTML code for error
+
+    - [CSS Validator](https://jigsaw.w3.org/css-validator/) - used to check CSS code for error
+
+    - [I Am Responsive](http://ami.responsivedesign.is/) - for main image in Readme to show responsive to different screen size
+
+    - [Balsamiq](https://balsamiq.com/) - used to make the wireframes for the project
