@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #EAE2B7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+}
+
+/* ----------- Navigation Bar ----------- */
+.bg-light {
+    background-color: #EAE2B7 !important;
+    -webkit-box-shadow: 0 0.5em 1.1em rgba(0, 0, 0, 0.25);
+            box-shadow: 0 0.5em 1.1em rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.navbar-brand {
+    font-family: "Courgette", cursive;
+    color: #000;
+}
+
+.navbar-brand:hover {
+    color: #000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+}
+
+.hvr-underline-from-center:before {
+    background: #003049;
+    height: 2px;
+}
+
+/* add margin to nav-links to devices that have min-width: 992px */
+@media (min-width:992px){
+    .nav-link {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+/* remove navbar-brand text for small devices */
+@media (max-width:575px) {
+    .navbar-brand {
+        font-size: 0px;
+    }
+}

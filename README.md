@@ -1,45 +1,45 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Caterpillar Montessori
 
-Welcome USER_NAME,
+![Caterpillar Montessori](assets/images/amiresponsive.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The purpose of this project was to create a small website for a childcare in order to attract new families and update current parents with upcoming events.  Having a childcare website and attracting visitors means more potential sales and you’re ahead of your competitors.
 
-## Gitpod Reminders
+[View live project here](https://)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Table of Contents
 
-`python3 -m http.server`
+- #### UX:
 
-A blue button should appear to click: *Make Public*,
+  - ##### User stories:
 
-Another blue button should appear to click: *Open Browser*.
+    I.	First Time Visitor Goals:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    - As a first-time visitor I want to be able to easily navigate through the site.
 
-A blue button should appear to click: *Make Public*,
+    - As a first-time visitor I want to understand the main purpose of the site and find out about the services offered.
 
-Another blue button should appear to click: *Open Browser*.
+    - As a first-time visitor I want to find testimonials from established clients.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    II.	Returning User Goals:
 
-## Updates Since The Instructional Video
+    - As a returning visitor, I want to be able to get in contact so I can get more information about a particular subject.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    - As a returning visitor, I want to find links to the social media of the business.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- #### Features:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  - ##### Existing Features:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    Home Page - 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    About Us Page - 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    Gallery Page - 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    Contact Page - 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  - ##### Future Features to Implement:
 
---------
+    -  Add Sign in page to allow existing users to view the personal updates, photos about their child and to communicate to child teacher more often
 
-Happy coding!
+    -  Send email from Contact Form to the owner of the website 
