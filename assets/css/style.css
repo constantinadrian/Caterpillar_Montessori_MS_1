@@ -137,19 +137,40 @@ footer {
 
 /* ----------- Carousel ----------- */
 .carousel-item {	
-    /* max-height: 90vh; */
     height: 90vh;
     overflow: hidden;
 }
 
-.carousel-item > img {
-    width: 100%;
+.carousel-item-hero-container {
     height: 90vh;
-    object-fit: cover;
+    width: 100%;
+}
+.carousel-item-hero-image-1 {
+    background: url('../images/hero-image-1.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel-item-hero-image-2 {
+    background: url('../images/hero-image-2.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel-item-hero-image-3 {
+    background: url('../images/hero-image-3.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* code taken and modified for image animation from Brian O'Grady Love Running Code Institute*/
-.carousel-item.active img {
+.carousel-item.active .carousel-item-hero-image-1, 
+.carousel-item.active .carousel-item-hero-image-2, 
+.carousel-item.active .carousel-item-hero-image-3 {
     animation: hero-zoom;
     animation-duration: 6s;
     animation-fill-mode: forwards;
@@ -187,20 +208,14 @@ footer {
     font-family: "Courgette", cursive;
 }
 
-.jumbotron h3 {
-    margin: 0;
-}
-
-@media (max-width:575px) {
-    .jumbotron h3 {
-        font-size: 1rem;
-    }
-}
-
 /* ----------- Madia Queries ----------- */
 @media (max-width:767px){
     .footer-copyright-col {
         padding: 0.5rem;
+    }
+
+    .jumbotron h1 {
+        font-size: 1.5rem;
     }
 }
 
