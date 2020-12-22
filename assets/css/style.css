@@ -12,6 +12,22 @@ body {
     color: #000;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h1, h2, h3 {
+    font-family: "Courgette", cursive;
+}
+
 /* ----------- Navigation Bar ----------- */
 .bg-light {
     background-color: #EAE2B7 !important;
@@ -101,7 +117,7 @@ footer {
     margin-right: 5px;
 }
 
-/* ----------- code and modified from Matt Rudge bootstrap mini project "Resume Project" Code Institute ----------- */
+/* ----------- code taken and modified from Matt Rudge bootstrap mini project "Resume Project" Code Institute ----------- */
 .social-icon-links li a i {
     color: #000;
     background: #EAE2B7;
@@ -208,13 +224,37 @@ footer {
     font-family: "Courgette", cursive;
 }
 
+.btn--cta {
+    margin-top: 5px;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+
+.btn--coconut-cream {
+    background-color:  #EAE2B7;
+    border-color: #EAE2B7;
+    color: #000;
+}
+
+.btn--coconut-cream:hover,
+.btn--coconut-cream:active,
+.btn--coconut-cream:focus,
+.btn--coconut-cream:active:focus {
+    background-color: #003049;
+    color: #fff;
+}
+
 /* ----------- Madia Queries ----------- */
-@media (max-width:767px){
+@media (max-width:767px) {
     .footer-copyright-col {
         padding: 0.5rem;
     }
 
     .jumbotron h1 {
+        font-size: 2rem;
+    }
+
+    .jumbotron h3 {
         font-size: 1.5rem;
     }
 }
