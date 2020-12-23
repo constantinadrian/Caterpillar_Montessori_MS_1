@@ -268,3 +268,32 @@ footer {
         padding-bottom: 15px;
     }
 }
+
+/* ----------- Welcome section ----------- */
+.container-wrapper {
+    background-color: #FCBF49;
+}
+
+.welcome-title {
+    margin: 10px 0;
+    padding: 30px 10px;
+}
+
+.col-welcome {
+    padding: 25px;
+}
+
+.welcome-image {
+    border-radius: 0.8rem;
+}
+
+.quote-author {
+    font-family: "Courgette", cursive;
+    margin: 2rem 0 0 0;
+}
+
+@media (max-width:767px) {
+    .welcome-title h2 {
+        font-size: 2rem
+    } 
+}
