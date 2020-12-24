@@ -54,8 +54,8 @@ h1, h2, h3 {
     padding-left: 0;
 }
 
-.navbar-nav .nav-link {
-    color: #000;
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.7);
 }
 
 .navbar .navbar-toggler {
@@ -89,6 +89,10 @@ footer {
     background-color: #003049;
     font-size: 14px;
     line-height: 2;
+}
+
+.footer-heading {
+    font-size: 1.25rem;
 }
 
 .footer-links {
@@ -254,7 +258,7 @@ footer {
         font-size: 2rem;
     }
 
-    .jumbotron h3 {
+    .jumbotron h2 {
         font-size: 1.5rem;
     }
 }
@@ -287,13 +291,216 @@ footer {
     border-radius: 0.8rem;
 }
 
+.quote-text {
+    font-size: 1.5rem;
+    color: #003049;
+}
+
 .quote-author {
     font-family: "Courgette", cursive;
+    font-size: 1.25rem;
     margin: 2rem 0 0 0;
+    color: #003049;
 }
 
 @media (max-width:767px) {
     .welcome-title h2 {
         font-size: 2rem
     } 
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .welcone-container {
+        max-width: 720px;
+    }
+}
+
+/* ----------- Why Choose us section ----------- */
+.why-us-title-container {
+    margin: 10px 0;
+    padding: 30px 10px;
+}
+
+.col-card {
+    padding: 25px;
+}
+
+.card {
+    border-radius: 0.8rem;
+    border: none;
+    -webkit-box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.68);
+            box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.68);
+}
+
+.card-top {
+    border: none;
+    padding: 16px 16px 5px;
+}
+
+.card-title {
+    font-family: "Courgette", cursive;
+    font-size: 1.25rem;
+    margin: 0;
+    background-color: #fff;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.card-body {
+    padding: 0;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    position: relative;
+    overflow: hidden;
+    min-height: 350px;
+}
+
+.card-body-wave-image-container {
+    width: 100%;
+    height: 60px;
+    background: url('../images/wave.png') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.card-body-content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    visibility: hidden;
+}
+
+.list-group {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+.card-body-content .list-group {
+    -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+            transform: translateY(-100%);
+}
+
+.card-link-container {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    padding: 30px;
+}
+
+.card-body-content .card-link-container {
+    -webkit-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+            transform: translateY(100%);
+}
+
+.card:hover .card-body-content {
+    visibility: visible;
+}
+
+.card:hover .list-group {
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+    transition: all 0.65s ease-in-out;
+}
+
+.card:hover .card-link-container {
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+    transition: all 0.65s ease-in-out;
+}
+
+.btn--card-cta {
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.btn--prussian-blue {
+    background-color: #003049;
+    border-color: #003049;
+    color: #fff;
+}
+
+.btn--prussian-blue:hover,
+.btn--prussian-blue:active,
+.btn--prussian-blue:focus,
+.btn--prussian-blue:active:focus {
+    background-color: #003049;
+    color: #FCBF49;
+}
+
+/* ----------- Each card background from why Choose us section ----------- */
+.bg-card-child-care {
+    background: url('../images/card-child-care.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-card-early-learning {
+    background: url('../images/card-early-learning.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-card-pre-school {
+    background: url('../images/card-pre-school.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-card-our-team {
+    background: url('../images/card-our-team.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-card-our-services {
+    background: url('../images/card-our-services.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-card-summer-camp {
+    background: url('../images/card-summer-camp.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width:767px) {
+    .why-us-container h2 {
+        font-size: 2rem
+    } 
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .why-us-container {
+        max-width: 720px;
+    }
 }
