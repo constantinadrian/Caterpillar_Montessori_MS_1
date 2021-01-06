@@ -823,3 +823,154 @@ iframe
         margin-bottom: 0;
     }
 }
+
+/* -------------------------------------------- Gallery Page -------------------------------------------- */
+.gallery-hero-image-container {
+    height: 90vh;
+    background: url('../images/gallery-hero-image.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-flexbox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-around;   
+    align-items: center;
+}
+
+.gallery-img-wrapper {
+    position: relative;
+    width: 300px;
+    height: 30vh;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 0.8rem;
+}
+
+.gallery-img-box {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.gallery-img-box:hover {
+    transform: scale(1.5);
+}
+
+.gallery-img-1 {
+    background: url('../images/christopher-ryan-JoS5xzulJx4-unsplash.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gallery-img-2 {
+    background: url('../images/erika-fletcher-YfNWGrQI3a4-unsplash.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gallery-img-3 {
+    background: url('../images/kid-2605810_640.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gallery-img-4 {
+    background: url('../images/pexels-jennifer-murray-1089069.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gallery-img-5 {
+    background: url('../images/rashid-sadykov-3NebKP7Zfvc-unsplash.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gallery-img-6 {
+    background: url('../images/sandy-millar-nuS2GDpCDoI-unsplash.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gallery-img-7 {
+    background: url('../images/pexels-naomi-shi-1001914.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gallery-img-8 {
+    background: url('../images/tanaphong-toochinda-GagC07wVvck-unsplash.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gallery-img-9 {
+    background: url('../images/jerry-wang-RwCP91RwZeM-unsplash.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gallery-img-10 {
+    background: url('../images/pexels-lukas-296308.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gallery-img-11 {
+    background: url('../images/pexels-lukas-296301.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gallery-img-12 {
+    background: url('../images/pexels-lukas-296302.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (min-width: 992px) {
+    .gallery-container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .gallery-container {
+        max-width: 720px;
+    }
+}
