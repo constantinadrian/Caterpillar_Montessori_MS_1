@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -215,17 +222,33 @@ footer {
 #hero-image-section .carousel-item.active .carousel-item-hero-image-1, 
 #hero-image-section .carousel-item.active .carousel-item-hero-image-2, 
 #hero-image-section .carousel-item.active .carousel-item-hero-image-3 {
-    animation: hero-zoom;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
+    -webkit-animation: hero-zoom;
+            animation: hero-zoom;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes hero-zoom {
+    from {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+    }
 }
 
 @keyframes hero-zoom {
     from {
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
     to {
-        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
     }
 }
 
@@ -246,7 +269,9 @@ footer {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     background: transparent;
     color: #fff;
     font-family: "Courgette", cursive;
@@ -449,6 +474,8 @@ footer {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);
+    -webkit-transition: all 0.65s ease-in-out;
+    -o-transition: all 0.65s ease-in-out;
     transition: all 0.65s ease-in-out;
 }
 
@@ -456,6 +483,8 @@ footer {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);
+    -webkit-transition: all 0.65s ease-in-out;
+    -o-transition: all 0.65s ease-in-out;
     transition: all 0.65s ease-in-out;
 }
 
@@ -572,7 +601,8 @@ footer {
     color: #000;
     background-color: #fff;
     border-color: #003049;
-    box-shadow: 0 0 0 3px rgba(0, 48, 73, 0.25);
+    -webkit-box-shadow: 0 0 0 3px rgba(0, 48, 73, 0.25);
+            box-shadow: 0 0 0 3px rgba(0, 48, 73, 0.25);
 }
 
 @media (max-width:575px){
@@ -583,6 +613,8 @@ footer {
 
 /* ----------- What parrents say ----------- */
 #testimonial {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(214, 40, 40, 1)), color-stop(rgba(247, 127, 0, 1)), color-stop(rgba(252, 191, 73, 1)), to(rgba(234, 226, 183, 1)));
+    background: -o-linear-gradient(left, rgba(214, 40, 40, 1), rgba(247, 127, 0, 1), rgba(252, 191, 73, 1), rgba(234, 226, 183, 1));
     background: linear-gradient(to right, rgba(214, 40, 40, 1), rgba(247, 127, 0, 1), rgba(252, 191, 73, 1), rgba(234, 226, 183, 1));
 }
 
@@ -605,6 +637,10 @@ footer {
 #testimonial .card-header {
     background: transparent;
     border-bottom: none;
+}
+
+#testimonial .card-quotation-mark {
+    font-size: 1.75rem;
 }
 
 #testimonial .img-card
@@ -838,11 +874,20 @@ iframe
 
 .gallery-flexbox {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; 
-    justify-content: space-around;   
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; 
+    -ms-flex-pack: distribute; 
+        justify-content: space-around;   
+    -webkit-box-align: center;   
+        -ms-flex-align: center;   
+            align-items: center;
 }
 
 .gallery-img-wrapper {
@@ -860,11 +905,15 @@ iframe
     left: 0;
     right: 0;
     bottom: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
 .gallery-img-box:hover {
-    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
 }
 
 .gallery-img-1 {
@@ -969,6 +1018,12 @@ iframe
     }
 }
 
+@media (max-width:767px) {
+    .gallery-title {
+        font-size: 1.5rem;
+    }
+}
+
 @media (min-width: 575px) and (max-width: 767px) {
     .gallery-container {
         max-width: 720px;
@@ -989,8 +1044,13 @@ iframe
 
 .contact-flexbox {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column; 
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; 
 }
 
 .contact-flexbox-item {
@@ -999,10 +1059,17 @@ iframe
 
 .contact-flebox-item-flex-row {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row; 
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; 
 }
 
 .contact-flebox-item-flex-row-info {
@@ -1039,10 +1106,18 @@ iframe
 .contact-flebox-item-flex-row-content-social {
     width:100%;
     height:100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background: #003049;
     color: #fff;
     padding: 26px 10px;
@@ -1122,7 +1197,8 @@ iframe
     color: #000;
     background-color: #fff;
     border-color: #003049;
-    box-shadow: 0 0 0 3px rgba(0, 48, 73, 0.25);
+    -webkit-box-shadow: 0 0 0 3px rgba(0, 48, 73, 0.25);
+            box-shadow: 0 0 0 3px rgba(0, 48, 73, 0.25);
 }
 
 #contact-form label {
