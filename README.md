@@ -28,14 +28,17 @@ The purpose of this project was to create a small website for a fictional Montes
 
  - ##### Strategy
 
-    The strategy for having a website is to attract new families and to provide them with information about the services that we have. Having a Montessori website could potentialy generate more income to our Montessori and you’re ahead of your competitors.
+    - The strategy for having a website is to attract new families and to provide them with information about the services that we have. Having a Montessori website could potentialy generate more income to our Montessori and you’re ahead of your competitors.
     
  - ##### Scope
 
-    Provide a clean UX for users
-    Provide users with the essential information and keep it simple not to overwhelm with too much content.
-    Provide testemonials from current and past parrents
-    Provide with call to action to enroll or contact the Montessori
+    - Provide a clean UX for users
+
+    - Provide users with the essential information and keep it simple not to overwhelm with too much content.
+
+    - Provide testemonials from current and past parrents
+    
+    - Provide with call to action to enroll or contact the Montessori
 
 - ##### Structure
 
