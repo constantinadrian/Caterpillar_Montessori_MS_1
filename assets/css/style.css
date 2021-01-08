@@ -733,6 +733,10 @@ footer {
     border-radius: 0.8rem;
 }
 
+.col-extra-padding {
+    padding: 25px;
+}
+
 #our-educational-videos .container {
     padding: 25px;
     border-radius: 0.8rem;
