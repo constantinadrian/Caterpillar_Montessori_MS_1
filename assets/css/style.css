@@ -1036,7 +1036,7 @@ iframe
 
 /* -------------------------------------------- Contact Page -------------------------------------------- */
 .contact-hero-image-container {
-    height: 65vh;
+    height: 62vh;
     background: url('../images/contact-hero-image.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
