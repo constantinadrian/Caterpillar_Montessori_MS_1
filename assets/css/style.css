@@ -35,7 +35,7 @@ h1, h2, h3 {
     font-family: "Courgette", cursive;
 }
 
-/* ----------- Navigation Bar ----------- */
+/* -------------------------- Navigation Bar ------------------- */
 .bg-light {
     background-color: #EAE2B7 !important;
     -webkit-box-shadow: 0 0.5em 1.1em rgba(0, 0, 0, 0.25);
@@ -84,26 +84,7 @@ h1, h2, h3 {
     height: 2px;
 }
 
-/* add margin to nav-links to devices that have min-width: 992px */
-@media (min-width:992px){
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-left: 0;
-    }
-
-    .nav-link {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-}
-
-/* remove navbar-brand text for small devices */
-@media (max-width:575px) {
-    .navbar-brand {
-        font-size: 0px;
-    }
-}
-
-/* ----------- Footer  ----------- */
+/* ------------------------ Footer  -------------------- */
 footer {
     padding: 15px 0 0;
     color: #fff;
@@ -148,7 +129,7 @@ footer {
     margin-right: 5px;
 }
 
-/* ----------- code taken and modified from Matt Rudge bootstrap mini project "Resume Project" Code Institute ----------- */
+/* Credit code - taken and modified from Matt Rudge bootstrap mini project "Resume Project" Code Institute ----------- */
 .social-icon-links li a i {
     color: #000;
     background: #EAE2B7;
@@ -163,6 +144,7 @@ footer {
     -webkit-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
 }
+/* End Credit Code */
 
 .social-icon-links li a i:hover {
     background: #FCBF49;
@@ -218,7 +200,7 @@ footer {
     background-size: cover;
 }
 
-/* code taken and modified for image animation from Brian O'Grady Love Running Code Institute*/
+/* Credit code - taken and modified for image animation from Brian O'Grady Love Running Code Institute*/
 #hero-image-section .carousel-item.active .carousel-item-hero-image-1, 
 #hero-image-section .carousel-item.active .carousel-item-hero-image-2, 
 #hero-image-section .carousel-item.active .carousel-item-hero-image-3 {
@@ -251,8 +233,9 @@ footer {
                 transform: scale(1.1);
     }
 }
+/* End Credit code */
 
-/* code taken and modified from Matt Rudge "Whiskey Drop Project" Code Institute */
+/* Credit code - from Matt Rudge "Whiskey Drop Project" Code Institute */
 #hero-image-section .carousel-item-text {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
@@ -260,8 +243,8 @@ footer {
     left: 0;
     height: 100%;
     width: 100%;
-    z-index: 3;
 }
+/* End Credit code  */
 
 .jumbotron {
     padding: 20px;
@@ -297,34 +280,7 @@ footer {
     color: #fff;
 }
 
-/* ----------- Madia Queries ----------- */
-@media (max-width:767px) {
-    .jumbotron h1 {
-        font-size: 2rem;
-    }
-
-    .jumbotron h2 {
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width:575px){
-    .footer-heading {
-        text-align: center;
-    }
-
-    .social-icon-links {
-        padding-bottom: 15px;
-    }
-}
-
-@media (min-width: 575px) and (max-width: 767px) {
-    .footer-container {
-        max-width: 720px;
-    }
-}
-
-/* ----------- Welcome section ----------- */
+/* ----------- Welcome section - Home Page ----------- */
 .welcome-title {
     margin: 10px 0;
     padding: 30px 10px;
@@ -357,19 +313,7 @@ footer {
     color: #000;
 }
 
-@media (max-width:767px) {
-    .welcome-title h2 {
-        font-size: 2rem
-    } 
-}
-
-@media (min-width: 575px) and (max-width: 767px) {
-    .welcone-container {
-        max-width: 720px;
-    }
-}
-
-/* ----------- Why Choose us section ----------- */
+/* --------------- Why Choose us section - Home Page-------------- */
 #why-us {
     background-color: #fff;
 }
@@ -461,7 +405,6 @@ footer {
 }
 
 #why-us .card-body-content .card-link-container {
-    top: 100%;
     -webkit-transform: translateY(100%);
         -ms-transform: translateY(100%);
             transform: translateY(100%);
@@ -481,8 +424,6 @@ footer {
 }
 
 #why-us .card:hover .card-link-container {
-    position: relative;
-    top: 0;
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);
@@ -510,7 +451,7 @@ footer {
     color: #FCBF49;
 }
 
-/* ----------- Each card background from why Choose us section ----------- */
+/* ----------- Each card background from why Choose us section - Home Page----------- */
 .bg-card-child-care {
     background: url('../images/card-child-care.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -559,22 +500,6 @@ footer {
     background-size: cover;
 }
 
-@media (max-width:767px) {
-    .why-us-container h2 {
-        font-size: 2rem
-    } 
-
-    #why-us .card-title {
-        font-size: 1.25rem;
-    }
-}
-
-@media (min-width: 575px) and (max-width: 767px) {
-    .why-us-container {
-        max-width: 720px;
-    }
-}
-
 /* ----------- Modal - Enroll your child ----------- */
 .modal-title {
     font-family: "Courgette", cursive;
@@ -600,6 +525,10 @@ footer {
     margin: 25px 0;
 }
 
+.modal label {
+    font-size: 14px;
+} 
+
 .modal .form-control:focus {
     color: #000;
     background-color: #fff;
@@ -608,13 +537,7 @@ footer {
             box-shadow: 0 0 0 3px rgba(0, 48, 73, 0.25);
 }
 
-@media (max-width:575px){
-    .modal label {
-        font-size: 12px;
-    } 
-}
-
-/* ----------- What parrents say ----------- */
+/* ----------- What parrents say section - Home Page ----------- */
 #testimonial {
     background: -webkit-gradient(linear, left top, right top, from(rgba(214, 40, 40, 1)), color-stop(rgba(247, 127, 0, 1)), color-stop(rgba(252, 191, 73, 1)), to(rgba(234, 226, 183, 1)));
     background: -o-linear-gradient(left, rgba(214, 40, 40, 1), rgba(247, 127, 0, 1), rgba(252, 191, 73, 1), rgba(234, 226, 183, 1));
@@ -701,12 +624,6 @@ footer {
     font-style: italic;
 }
 
-@media (min-width: 575px) and (max-width: 767px) {
-    .testimonial-container {
-        max-width: 720px;
-    }
-}
-
 /* -------------------------------------------- About Page -------------------------------------------- */
 .about-hero-image-container {
     height: 90vh;
@@ -719,7 +636,7 @@ footer {
     overflow: hidden;
 }
 
-/* code taken from Matt Rudge "Whiskey Drop Project" Code Institute */
+/* Credit code - from Matt Rudge "Whiskey Drop Project" Code Institute */
 .opaque-overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
@@ -730,6 +647,7 @@ footer {
     height: 100%;
     width: 100%;
 }
+/* End credit code */
 
 .custom-container {
     background: #fff;
@@ -807,14 +725,12 @@ footer {
     font-weight: 600;
 }
 
-.video-container
-{
+.video-container {
     position: relative;
     overflow: hidden;
 }
 
-iframe
-{
+iframe {
     width: 100%;
     border: none;
     margin-bottom: 1.5rem;
@@ -859,12 +775,6 @@ iframe
     -o-background-size: cover;
     background-size: cover;
     border-radius: 0.8rem;
-}
-
-@media (min-width:768px) {
-    iframe {
-        margin-bottom: 0;
-    }
 }
 
 /* -------------------------------------------- Gallery Page -------------------------------------------- */
@@ -923,6 +833,7 @@ iframe
             transform: scale(1.5);
 }
 
+/* ------------------ Galery photo -------------- */
 .gallery-img-1 {
     background: url('../images/gallery-img-1.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -1017,24 +928,6 @@ iframe
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-@media (min-width: 992px) {
-    .gallery-container {
-        max-width: 1140px;
-    }
-}
-
-@media (max-width:767px) {
-    .gallery-title {
-        font-size: 1.5rem;
-    }
-}
-
-@media (min-width: 575px) and (max-width: 767px) {
-    .gallery-container {
-        max-width: 720px;
-    }
 }
 
 /* -------------------------------------------- Contact Page -------------------------------------------- */
@@ -1143,26 +1036,6 @@ iframe
     margin: 1.5rem 0;
 }
 
-@media (min-width: 1200px) {
-    .contact-flebox-item-flex-row-content-wrapper {
-        width: 540px;
-        margin-top: 0;
-    }
-}
-
-@media (min-width: 992px) and  (max-width:1199px) {
-    .contact-flebox-item-flex-row-content-wrapper {
-        width: 450px;
-        margin-top: 0;
-    }
-}
-
-@media (min-width: 992px) {
-    .contact-flebox-item-flex-row-content-social h4 {
-        margin-bottom: 2.5rem;
-    }
-}
-
 .contact-flexbox-item-location {
     width: 100%;
     height:400px;
@@ -1171,12 +1044,6 @@ iframe
 
 .bg--contact-flexbox-item-1 {
     background: #fff;
-}
-
-@media (min-width: 992px) {
-    .contact-flexbox-item-location {
-        padding: 0 18px;
-    }
 }
 
 #contact-form .btn--cta-contact {
@@ -1210,4 +1077,110 @@ iframe
 
 #contact-form label {
     font-size: 14px;
+}
+
+/* --------------- Media Query --------------- */
+@media (min-width: 1200px) {
+    .contact-flebox-item-flex-row-content-wrapper {
+        width: 540px;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 992px) and  (max-width:1199px) {
+    .contact-flebox-item-flex-row-content-wrapper {
+        width: 450px;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0;
+    }
+
+    .nav-link {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .gallery-container {
+        max-width: 1140px;
+    }
+
+    .contact-flebox-item-flex-row-content-social h4 {
+        margin-bottom: 2.5rem;
+    }
+
+    .contact-flexbox-item-location {
+        padding: 0 18px;
+    }
+}
+
+@media (max-width:767px) {
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+
+    .jumbotron h2 {
+        font-size: 1.5rem;
+    }
+
+    .welcome-title h2 {
+        font-size: 2rem
+    } 
+
+    .why-us-container h2 {
+        font-size: 2rem
+    } 
+
+    #why-us .card-title {
+        font-size: 1.25rem;
+    }
+
+    .gallery-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:768px) {
+    iframe {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .welcone-container {
+        max-width: 720px;
+    }
+
+    .why-us-container {
+        max-width: 720px;
+    }
+
+    .testimonial-container {
+        max-width: 720px;
+    }
+
+    .gallery-container {
+        max-width: 720px;
+    }
+
+    .footer-container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width:575px){
+    .navbar-brand {
+        font-size: 0px;
+    }
+
+    .footer-heading {
+        text-align: center;
+    }
+
+    .social-icon-links {
+        padding-bottom: 15px;
+    }
 }
