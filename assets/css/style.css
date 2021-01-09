@@ -447,7 +447,7 @@ footer {
 }
 
 #why-us .card-body-content .list-group {
-    -webkit-transform: translateY(-100%);
+    /* -webkit-transform: translateY(-100%); */
         -ms-transform: translateY(-100%);
             transform: translateY(-100%);
 }
@@ -461,7 +461,7 @@ footer {
 }
 
 #why-us .card-body-content .card-link-container {
-    -webkit-transform: translateY(100%);
+    /* -webkit-transform: translateY(100%); */
         -ms-transform: translateY(100%);
             transform: translateY(100%);
 }
@@ -471,19 +471,19 @@ footer {
 }
 
 #why-us .card:hover .list-group {
-    -webkit-transform: translateY(0);
+    /* -webkit-transform: translateY(0); */
         -ms-transform: translateY(0);
             transform: translateY(0);
-    -webkit-transition: all 0.65s ease-in-out;
+    /* -webkit-transition: all 0.65s ease-in-out; */
     -o-transition: all 0.65s ease-in-out;
     transition: all 0.65s ease-in-out;
 }
 
 #why-us .card:hover .card-link-container {
-    -webkit-transform: translateY(0);
+    /* -webkit-transform: translateY(0); */
         -ms-transform: translateY(0);
             transform: translateY(0);
-    -webkit-transition: all 0.65s ease-in-out;
+    /* -webkit-transition: all 0.65s ease-in-out; */
     -o-transition: all 0.65s ease-in-out;
     transition: all 0.65s ease-in-out;
 }
