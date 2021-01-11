@@ -35,7 +35,7 @@ h1, h2, h3 {
     font-family: "Courgette", cursive;
 }
 
-/* -------------------------- Navigation Bar ------------------- */
+/* ------------------------------------- Navigation Bar ------------------------------------------- */
 .bg-light {
     background-color: #EAE2B7 !important;
     -webkit-box-shadow: 0 0.5em 1.1em rgba(0, 0, 0, 0.25);
@@ -51,15 +51,20 @@ h1, h2, h3 {
 .navbar-brand {
     font-family: "Courgette", cursive;
     color: #000;
+    font-size: 0;
 }
 
 .navbar-brand:hover {
     color: #000;
 }
 
+.navbar-brand span {
+    vertical-align: middle;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0;
-    padding-left: 12px;
+    margin-left: 12px;
 }
 
 .navbar-light .navbar-nav .active > .nav-link, 
@@ -79,12 +84,14 @@ h1, h2, h3 {
     border: none;
 }
 
+/* ----------------------- Hover.css ----------------------- */
 .hvr-underline-from-center:before {
-    background: #003049;
+    background-color: #003049;
     height: 2px;
 }
+/* ---------------------------------- End Navigation Bar ------------------------------------------ */
 
-/* ------------------------ Footer  -------------------- */
+/* ------------------------------------------ Footer ---------------------------------------------- */
 footer {
     padding: 15px 0 0;
     color: #fff;
@@ -100,6 +107,7 @@ footer {
 .footer-heading {
     font-size: 1.25rem;
     font-family: 'Playfair Display', serif;
+    text-align: center;
 }
 
 .footer-links {
@@ -129,27 +137,34 @@ footer {
     margin-right: 5px;
 }
 
+/* ------ Code for footer and contact page section social links ------ */
+.social-icon-links {
+    margin-bottom: 2rem;
+}
+
 /* Credit code - taken and modified from Matt Rudge bootstrap mini project "Resume Project" Code Institute ----------- */
 .social-icon-links li a i {
     color: #000;
-    background: #EAE2B7;
+    background-color: #EAE2B7;
     width: 42px;
     height: 42px;
     padding-top: 12px;
     border-radius: 50%;
     font-size: 18px;
     text-align: center;
-    transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
+       -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+         -o-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
 }
-/* End Credit Code */
 
 .social-icon-links li a i:hover {
-    background: #FCBF49;
+    background-color: #FCBF49;
     color: #fff;
 }
+/* End Credit Code */
+/* ------ End of Code for footer and contact page section social links ------ */
 
 .footer-copyright {
     border-top: 1px solid #FCBF49;
@@ -159,7 +174,9 @@ footer {
 .footer-copyright-col {
     padding: 16px 25px;
 }
+/* ---------------------------------------- End Footer -------------------------------------------- */
 
+/* ----------------------------------------- Home Page -------------------------------------------- */
 /* ----------- Main container ----------- */
 .main-container {
     margin-top: 55px;
@@ -179,28 +196,28 @@ footer {
 #hero-image-section .carousel-item-hero-image-1 {
     background: url('../images/hero-image-1.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 #hero-image-section .carousel-item-hero-image-2 {
     background: url('../images/hero-image-2.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 #hero-image-section .carousel-item-hero-image-3 {
     background: url('../images/hero-image-3.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
-/* Credit code - taken and modified for image animation from Brian O'Grady Love Running Code Institute*/
+/* Credit code - taken and modified for image animation from Brian O'Grady Love Running Code Institute */
 #hero-image-section .carousel-item.active .carousel-item-hero-image-1, 
 #hero-image-section .carousel-item.active .carousel-item-hero-image-2, 
 #hero-image-section .carousel-item.active .carousel-item-hero-image-3 {
@@ -253,11 +270,21 @@ footer {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     background: transparent;
     color: #fff;
     font-family: "Courgette", cursive;
+}
+
+.jumbotron h1 {
+    font-size: 2rem;
+}
+
+.jumbotron h2 {
+    font-size: 1.5rem;
 }
 
 .btn--cta {
@@ -266,17 +293,17 @@ footer {
     padding: 10px 15px;
 }
 
-.btn--coconut-cream {
+.btn--lemon-meringue {
     background-color:  #EAE2B7;
-    border-color: #EAE2B7;
     color: #000;
 }
 
-.btn--coconut-cream:hover,
-.btn--coconut-cream:active,
-.btn--coconut-cream:focus,
-.btn--coconut-cream:active:focus {
+.btn--lemon-meringue:hover,
+.btn--lemon-meringue:active,
+.btn--lemon-meringue:focus,
+.btn--lemon-meringue:active:focus {
     background-color: #003049;
+    border-color: #EAE2B7;
     color: #fff;
 }
 
@@ -284,6 +311,14 @@ footer {
 .welcome-title {
     margin: 10px 0;
     padding: 30px 10px;
+}
+
+.welcome-title h2 {
+    font-size: 2rem;
+}
+
+.welcome-title h3 {
+    font-size: 1.75rem;
 }
 
 .col-welcome {
@@ -300,7 +335,6 @@ footer {
 
 .btn-arrange-visit {
     background-color: #003049;
-    border-color: #003049;
     color: #fff;
 }
 
@@ -308,7 +342,7 @@ footer {
 .btn-arrange-visit:active,
 .btn-arrange-visit:focus,
 .btn-arrange-visit:active:focus {
-    background:  #EAE2B7;
+    background-color:  #EAE2B7;
     border-color: #003049;
     color: #000;
 }
@@ -322,6 +356,10 @@ footer {
     margin: 10px 0;
     padding: 30px 10px;
 }
+
+.why-us-title-container h2 {
+    font-size: 2rem
+} 
 
 .col-card {
     padding: 25px;
@@ -362,9 +400,9 @@ footer {
     height: 60px;
     background: url('../images/wave.png') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 #why-us .card-body-content {
@@ -391,8 +429,11 @@ footer {
 }
 
 #why-us .card-body-content .list-group {
-    -webkit-transform: translateY(-100%);
+    -webkit-transform: -webkit-translateY(-100%);
+    /* -webkit-transform: translateY(-100%); */
+       -moz-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
             transform: translateY(-100%);
 }
 
@@ -405,8 +446,11 @@ footer {
 }
 
 #why-us .card-body-content .card-link-container {
-    -webkit-transform: translateY(100%);
+    -webkit-transform: -webkit-translateY(100%);
+    /* -webkit-transform: translateY(100%); */
+       -moz-transform: translateY(100%);
         -ms-transform: translateY(100%);
+         -o-transform: translateY(100%);
             transform: translateY(100%);
 }
 
@@ -415,21 +459,31 @@ footer {
 }
 
 #why-us .card:hover .list-group {
-    -webkit-transform: translateY(0);
+    -webkit-transform: -webkit-translateY(0);
+    /* -webkit-transform: translateY(0); */
+       -moz-transform: translateY(0);
         -ms-transform: translateY(0);
+         -o-transform: translateY(0);
             transform: translateY(0);
     -webkit-transition: all 0.65s ease-in-out;
-    -o-transition: all 0.65s ease-in-out;
-    transition: all 0.65s ease-in-out;
+       -moz-transition: all 0.65s ease-in-out;
+        -ms-transition: all 0.65s ease-in-out;
+         -o-transition: all 0.65s ease-in-out;
+            transition: all 0.65s ease-in-out;
 }
 
 #why-us .card:hover .card-link-container {
-    -webkit-transform: translateY(0);
+    -webkit-transform: -webkit-translateY(0);
+    /* -webkit-transform: translateY(0); */
+       -moz-transform: translateY(0);
         -ms-transform: translateY(0);
+         -o-transform: translateY(0);
             transform: translateY(0);
     -webkit-transition: all 0.65s ease-in-out;
-    -o-transition: all 0.65s ease-in-out;
-    transition: all 0.65s ease-in-out;
+       -moz-transition: all 0.65s ease-in-out;
+        -ms-transition: all 0.65s ease-in-out;
+         -o-transition: all 0.65s ease-in-out;
+            transition: all 0.65s ease-in-out;
 }
 
 .btn--card-cta {
@@ -439,7 +493,6 @@ footer {
 
 .btn--prussian-blue {
     background-color: #003049;
-    border-color: #003049;
     color: #fff;
 }
 
@@ -451,93 +504,56 @@ footer {
     color: #FCBF49;
 }
 
-/* ----------- Each card background from why Choose us section - Home Page----------- */
+/* ----------- Each card background from why Choose us section - Home Page ----------- */
 .bg-card-child-care {
     background: url('../images/card-child-care.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .bg-card-early-learning {
     background: url('../images/card-early-learning.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .bg-card-pre-school {
     background: url('../images/card-pre-school.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .bg-card-our-team {
     background: url('../images/card-our-team.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .bg-card-our-services {
     background: url('../images/card-our-services.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .bg-card-summer-camp {
     background: url('../images/card-summer-camp.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
-/* ----------- Modal - Enroll your child ----------- */
-.modal-title {
-    font-family: "Courgette", cursive;
-    color: #003049;
-}
-
-.modal p {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.form-check-inline {
-    margin-right: 1rem;
-}
-
-.modal .form-check-inline:last-child {
-    margin: 0;
-}
-
-.btn--cta-submit {
-    border-radius: 20px;
-    padding: 5px 15px;
-    margin: 25px 0;
-}
-
-.modal label {
-    font-size: 14px;
-} 
-
-.modal .form-control:focus {
-    color: #000;
-    background-color: #fff;
-    border-color: #003049;
-    -webkit-box-shadow: 0 0 0 3px rgba(0, 48, 73, 0.25);
-            box-shadow: 0 0 0 3px rgba(0, 48, 73, 0.25);
-}
-
-/* ----------- What parrents say section - Home Page ----------- */
+/* ----------- Testimonial - What parrents say section - Home Page ----------- */
 #testimonial {
     background: -webkit-gradient(linear, left top, right top, from(rgba(214, 40, 40, 1)), color-stop(rgba(247, 127, 0, 1)), color-stop(rgba(252, 191, 73, 1)), to(rgba(234, 226, 183, 1)));
     background: -o-linear-gradient(left, rgba(214, 40, 40, 1), rgba(247, 127, 0, 1), rgba(252, 191, 73, 1), rgba(234, 226, 183, 1));
@@ -624,14 +640,52 @@ footer {
     font-style: italic;
 }
 
+/* ----------- Modal - Enroll your child ----------- */
+.modal-title {
+    font-family: "Courgette", cursive;
+    color: #003049;
+}
+
+.modal p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-check-inline {
+    margin-right: 1rem;
+}
+
+.modal .form-check-inline:last-child {
+    margin: 0;
+}
+
+.btn--cta-submit {
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 25px 0;
+}
+
+.modal label {
+    font-size: 14px;
+} 
+
+.modal .form-control:focus {
+    color: #000;
+    background-color: #fff;
+    border-color: #003049;
+    -webkit-box-shadow: 0 0 0 3px rgba(0, 48, 73, 0.25);
+            box-shadow: 0 0 0 3px rgba(0, 48, 73, 0.25);
+}
+/* ----------------------------------------- End Home Page -------------------------------------------- */
+
 /* -------------------------------------------- About Page -------------------------------------------- */
 .about-hero-image-container {
     height: 90vh;
     background: url('../images/about-hero-image.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     position: relative;
     overflow: hidden;
 }
@@ -741,9 +795,9 @@ iframe {
     min-height: 230px;
     background: url('../images/our-mission.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     border-radius: 0.8rem;
 }
 
@@ -751,9 +805,9 @@ iframe {
     min-height: 408px;
     background: url('../images/our-values.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     border-radius: 0.8rem;
 }
 
@@ -761,9 +815,9 @@ iframe {
     min-height: 230px;
     background: url('../images/our-services.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     border-radius: 0.8rem;
 }
 
@@ -771,22 +825,27 @@ iframe {
     min-height: 230px;
     background: url('../images/our-ecce-scheme.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     border-radius: 0.8rem;
 }
+/* -------------------------------------------- End About Page ------------------------------------------ */
 
 /* -------------------------------------------- Gallery Page -------------------------------------------- */
 .gallery-hero-image-container {
     height: 90vh;
     background: url('../images/gallery-hero-image.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     position: relative;
     overflow: hidden;
+}
+
+.gallery-title {
+    font-size: 1.5rem;
 }
 
 .gallery-flexbox {
@@ -823,13 +882,17 @@ iframe {
     right: 0;
     bottom: 0;
     -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
 }
 
 .gallery-img-box:hover {
     -webkit-transform: scale(1.5);
+       -moz-transform: scale(1.5);
         -ms-transform: scale(1.5);
+         -o-transform: scale(1.5);
             transform: scale(1.5);
 }
 
@@ -837,107 +900,108 @@ iframe {
 .gallery-img-1 {
     background: url('../images/gallery-img-1.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .gallery-img-2 {
     background: url('../images/gallery-img-2.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .gallery-img-3 {
     background: url('../images/gallery-img-3.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .gallery-img-4 {
     background: url('../images/gallery-img-4.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .gallery-img-5 {
     background: url('../images/gallery-img-5.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .gallery-img-6 {
     background: url('../images/gallery-img-6.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .gallery-img-7 {
     background: url('../images/gallery-img-7.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .gallery-img-8 {
     background: url('../images/gallery-img-8.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .gallery-img-9 {
     background: url('../images/gallery-img-9.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .gallery-img-10 {
     background: url('../images/gallery-img-10.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .gallery-img-11 {
     background: url('../images/gallery-img-11.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .gallery-img-12 {
     background: url('../images/gallery-img-12.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
+/* ---------------------------------------- End Gallery Page -------------------------------------------- */
 
 /* -------------------------------------------- Contact Page -------------------------------------------- */
 .contact-hero-image-container {
     height: 62vh;
     background: url('../images/contact-hero-image.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     position: relative;
     overflow: hidden;
 }
@@ -1054,7 +1118,6 @@ iframe {
 
 .btn--contact-prussian-blue {
     background-color: #003049;
-    border-color: #003049;
     color: #fff;
 }
 
@@ -1062,7 +1125,7 @@ iframe {
 .btn--contact-prussian-blue:active,
 .btn--contact-prussian-blue:focus,
 .btn--contact-prussian-blue:active:focus {
-    background:  #EAE2B7;
+    background-color:  #EAE2B7;
     border-color: #003049;
     color: #000;
 }
@@ -1078,23 +1141,24 @@ iframe {
 #contact-form label {
     font-size: 14px;
 }
+/* ---------------------------------------- End Contact Page -------------------------------------------- */
 
-/* --------------- Media Query --------------- */
-@media (min-width: 1200px) {
+/* ------------------------------------------- Media Query ---------------------------------------------- */
+@media only screen and (min-width: 1200px) {
     .contact-flebox-item-flex-row-content-wrapper {
         width: 540px;
         margin-top: 0;
     }
 }
 
-@media (min-width: 992px) and  (max-width:1199px) {
+@media only screen and (min-width: 992px) and  (max-width:1199px) {
     .contact-flebox-item-flex-row-content-wrapper {
         width: 450px;
         margin-top: 0;
     }
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-left: 0;
     }
@@ -1117,39 +1181,41 @@ iframe {
     }
 }
 
-@media (max-width:767px) {
+@media only screen and (min-width:768px) {
     .jumbotron h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .jumbotron h2 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .welcome-title h2 {
-        font-size: 2rem
-    } 
-
-    .why-us-container h2 {
-        font-size: 2rem
-    } 
-
-    #why-us .card-title {
-        font-size: 1.25rem;
+        font-size: 2.5rem;
     }
 
-    .gallery-title {
+    .welcome-title h2 {
+        font-size: 2rem;
+    }
+
+    .why-us-title-container h2 {
+        font-size: 2.5rem
+    } 
+    
+    #why-us .card-title {
         font-size: 1.5rem;
     }
-}
 
-@media (min-width:768px) {
     iframe {
         margin-bottom: 0;
     }
+
+    .gallery-title {
+        font-size: 2.5rem;
+    }
 }
 
-@media (min-width: 575px) and (max-width: 767px) {
+@media only screen and (min-width: 575px) and (max-width: 767px) {
     .welcone-container {
         max-width: 720px;
     }
@@ -1171,16 +1237,12 @@ iframe {
     }
 }
 
-@media (max-width:575px){
+@media only screen and (min-width:576px){
     .navbar-brand {
-        font-size: 0px;
+        font-size: 1.25rem;
     }
 
     .footer-heading {
-        text-align: center;
-    }
-
-    .social-icon-links {
-        padding-bottom: 15px;
+        text-align: left;
     }
 }
