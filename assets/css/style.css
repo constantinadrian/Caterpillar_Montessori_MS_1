@@ -1139,6 +1139,31 @@ iframe {
 }
 /* ---------------------------------------- End Contact Page -------------------------------------------- */
 
+/* --------------------------------------------- 404 Page ----------------------------------------------- */
+.error-hero-image-container {
+    height: 100vh;
+    background: url('../images/error-hero-image.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#error-hero-image-section h3 {
+    font-size: 1.75rem;
+}
+
+#error-hero-image-section h3 {
+    font-size: 1rem;
+}
+
+#error-hero-image-section .btn-lg {
+    font-size: 1rem;
+}
+/* ------------------------------------------- End 404 Page --------------------------------------------- */
+
 /* ------------------------------------------- Media Query ---------------------------------------------- */
 @media only screen and (min-width: 1200px) {
     .contact-flebox-item-flex-row-content-wrapper {
@@ -1208,6 +1233,19 @@ iframe {
 
     .gallery-title {
         font-size: 2.5rem;
+    }
+
+        /* For 404 page */
+    #error-hero-image-section h3 {
+        font-size: 2rem;
+    }
+    
+    #error-hero-image-section h3 {
+        font-size: 1.5rem;
+    }
+    
+    #error-hero-image-section .btn-lg {
+        font-size: 1.25rem;
     }
 }
 
