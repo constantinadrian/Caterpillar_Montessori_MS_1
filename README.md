@@ -172,7 +172,7 @@ The purpose of this project was to create a small website for a fictional Montes
 
             ![Warnings CSS Validator](readme/css-test-warning.png)
 
-    - [Lighthouse in Chrome](https://developers.google.com/web/tools/lighthouse) - [Home](readme/lighthouse-index.png) [About](readme/lighthouse-about.png) [Gallery](readme/lighthouse-galery.png) [Contact](readme/lighthouse-contact.png)
+    - [Lighthouse in Chrome](https://developers.google.com/web/tools/lighthouse) - [Home](readme/lighthouse-index.png) [About](readme/lighthouse-about.png) [Gallery](readme/lighthouse-gallery.png) [Contact](readme/lighthouse-contact.png)
 
     - [GTMetrix](https://gtmetrix.com/) - [Home](readme/gtmetrix-index.png) [About](readme/gtmetrix-about.png) [Gallery](readme/gtmetrix-gallery.png) [Contact](readme/gtmetrix-contact.png)
 
