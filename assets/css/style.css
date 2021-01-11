@@ -429,8 +429,7 @@ footer {
 }
 
 #why-us .card-body-content .list-group {
-    -webkit-transform: -webkit-translateY(-100%);
-    /* -webkit-transform: translateY(-100%); */
+    -webkit-transform: translateY(-100%);
        -moz-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
          -o-transform: translateY(-100%);
@@ -446,8 +445,7 @@ footer {
 }
 
 #why-us .card-body-content .card-link-container {
-    -webkit-transform: -webkit-translateY(100%);
-    /* -webkit-transform: translateY(100%); */
+    -webkit-transform: translateY(100%);
        -moz-transform: translateY(100%);
         -ms-transform: translateY(100%);
          -o-transform: translateY(100%);
@@ -459,8 +457,7 @@ footer {
 }
 
 #why-us .card:hover .list-group {
-    -webkit-transform: -webkit-translateY(0);
-    /* -webkit-transform: translateY(0); */
+    -webkit-transform: translateY(0);
        -moz-transform: translateY(0);
         -ms-transform: translateY(0);
          -o-transform: translateY(0);
@@ -473,8 +470,7 @@ footer {
 }
 
 #why-us .card:hover .card-link-container {
-    -webkit-transform: -webkit-translateY(0);
-    /* -webkit-transform: translateY(0); */
+    -webkit-transform: translateY(0);
        -moz-transform: translateY(0);
         -ms-transform: translateY(0);
          -o-transform: translateY(0);

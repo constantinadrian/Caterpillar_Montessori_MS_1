@@ -72,11 +72,11 @@ The purpose of this project was to create a small website for a fictional Montes
 
 - #### Skeleton
 
-    -  Phone Wireframes: [Home](wireframes/home-phone.png) [About](wireframes/about-us-phone.png) [Gallery](wireframes/gallery-phone) [Contact](wireframes/contact-phone)
+    -  Phone Wireframes: [Home](wireframes/home-phone.png) [About](wireframes/about-us-phone.png) [Gallery](wireframes/gallery-phone.png) [Contact](wireframes/contact-phone.png)
 
-    -  Tablet Wireframes: [Home](wireframes/home-tablet.png) [About](wireframes/about-us-tablet.png) [Gallery](wireframes/gallery-tablet) [Contact](wireframes/contact-tablet)
+    -  Tablet Wireframes: [Home](wireframes/home-tablet.png) [About](wireframes/about-us-tablet.png) [Gallery](wireframes/gallery-tablet.png) [Contact](wireframes/contact-tablet.png)
 
-    -  Desktop Wireframes: [Home](wireframes/home-desktop.png) [About](wireframes/about-us-desktop.png) [Gallery](wireframes/gallery-desktop) [Contact](wireframes/contact-desktop)
+    -  Desktop Wireframes: [Home](wireframes/home-desktop.png) [About](wireframes/about-us-desktop.png) [Gallery](wireframes/gallery-desktop.png) [Contact](wireframes/contact-desktop.png)
 
 - #### Surface
 
@@ -154,11 +154,11 @@ The purpose of this project was to create a small website for a fictional Montes
          
             ![About](readme/about-page-test.png) 
 
-          - Gallery Page 
+         - Gallery Page 
          
             ![Gallery](readme/gallery-page-test.png) 
 
-          - Contact Page 
+         - Contact Page 
          
             ![Contact](readme/contact-page-test.png)  
 
@@ -172,9 +172,9 @@ The purpose of this project was to create a small website for a fictional Montes
 
             ![Warnings CSS Validator](readme/css-test-warning.png)
 
-    - [Lighthouse in Chrome](https://developers.google.com/web/tools/lighthouse) - [Home](readme/lighthouse-index.png) [About](readme/lighthousegtmetrix-about.png) [Gallery](readme/lighthouse-galery.png) [Contact](readme/lighthouse-contact.png)
+    - [Lighthouse in Chrome](https://developers.google.com/web/tools/lighthouse) - [Home](readme/lighthouse-index.png) [About](readme/lighthouse-about.png) [Gallery](readme/lighthouse-galery.png) [Contact](readme/lighthouse-contact.png)
 
-    - [GTMetrix](https://gtmetrix.com/) - [Home](readme/gtmetrix-index.png) [About](readme/gtmetrix-about.png) [Gallery](readme/gtmetrix-galery.png) [Contact](readme/gtmetrix-contact.png)
+    - [GTMetrix](https://gtmetrix.com/) - [Home](readme/gtmetrix-index.png) [About](readme/gtmetrix-about.png) [Gallery](readme/gtmetrix-gallery.png) [Contact](readme/gtmetrix-contact.png)
 
   - #### Testing User Stories from User Experience (UX) Section
 
@@ -344,6 +344,6 @@ The purpose of this project was to create a small website for a fictional Montes
 
   - #### Acknowledgements
 
-    - Code Institute for all course material 
+    - [Code Institute](https://codeinstitute.net/) for all course material 
 
     - My mentor Oluwafemi Medale for his support and feedback that he give me for this milestone project.
