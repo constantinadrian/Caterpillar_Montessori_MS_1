@@ -1,6 +1,6 @@
 # Caterpillar Montessori
 
-![Caterpillar Montessori](readme/amiresponsive.png)
+![Caterpillar Montessori](assets/readme/amiresponsive.png)
 
 The purpose of this project was to create a small website for a fictional Montessori in order to help the families from community.
 
@@ -74,11 +74,11 @@ The purpose of this project was to create a small website for a fictional Montes
 
 - #### Skeleton
 
-    -  Phone Wireframes: [Home](wireframes/home-phone.png) [About](wireframes/about-us-phone.png) [Gallery](wireframes/gallery-phone.png) [Contact](wireframes/contact-phone.png)
+    -  Phone Wireframes: [Home](assets/wireframes/home-phone.png) [About](assets/wireframes/about-us-phone.png) [Gallery](assets/wireframes/gallery-phone.png) [Contact](assets/wireframes/contact-phone.png)
 
-    -  Tablet Wireframes: [Home](wireframes/home-tablet.png) [About](wireframes/about-us-tablet.png) [Gallery](wireframes/gallery-tablet.png) [Contact](wireframes/contact-tablet.png)
+    -  Tablet Wireframes: [Home](assets/wireframes/home-tablet.png) [About](assets/wireframes/about-us-tablet.png) [Gallery](assets/wireframes/gallery-tablet.png) [Contact](assets/wireframes/contact-tablet.png)
 
-    -  Desktop Wireframes: [Home](wireframes/home-desktop.png) [About](wireframes/about-us-desktop.png) [Gallery](wireframes/gallery-desktop.png) [Contact](wireframes/contact-desktop.png)
+    -  Desktop Wireframes: [Home](assets/wireframes/home-desktop.png) [About](assets/wireframes/about-us-desktop.png) [Gallery](assets/wireframes/gallery-desktop.png) [Contact](assets/wireframes/contact-desktop.png)
 
 - #### Surface
 
@@ -86,7 +86,7 @@ The purpose of this project was to create a small website for a fictional Montes
 
         - Palette:
 
-            ![Palette Colors](readme/palette-colors.jpg) 
+            ![Palette Colors](assets/readme/palette-colors.jpg) 
 
             - The primary color that I choice is lemon-meringue because it inspires: Positivity, Purity and is the symbol of Happiness and Optimism.
 
@@ -152,33 +152,33 @@ The purpose of this project was to create a small website for a fictional Montes
         
          - Home Page
          
-            ![Home](readme/index-page-test.png)
+            ![Home](assets/readme/index-page-test.png)
 
          - About Us Page 
          
-            ![About](readme/about-page-test.png) 
+            ![About](assets/readme/about-page-test.png) 
 
          - Gallery Page 
          
-            ![Gallery](readme/gallery-page-test.png) 
+            ![Gallery](assets/readme/gallery-page-test.png) 
 
          - Contact Page 
          
-            ![Contact](readme/contact-page-test.png)  
+            ![Contact](assets/readme/contact-page-test.png)  
 
     - [CSS Validator](https://jigsaw.w3.org/css-validator/) - 
     
         - CSS - style.css
         
-            ![Result CSS Validator](readme/css-test.png)
+            ![Result CSS Validator](assets/readme/css-test.png)
 
             - All Warnings were from prefixes 
 
-            ![Warnings CSS Validator](readme/css-test-warning.png)
+            ![Warnings CSS Validator](assets/readme/css-test-warning.png)
 
-    - [Lighthouse in Chrome](https://developers.google.com/web/tools/lighthouse) - [Home](readme/lighthouse-index.png) [About](readme/lighthouse-about.png) [Gallery](readme/lighthouse-gallery.png) [Contact](readme/lighthouse-contact.png)
+    - [Lighthouse in Chrome](https://developers.google.com/web/tools/lighthouse) - [Home](assets/readme/lighthouse-index.png) [About](assets/readme/lighthouse-about.png) [Gallery](assets/readme/lighthouse-gallery.png) [Contact](assets/readme/lighthouse-contact.png)
 
-    - [GTMetrix](https://gtmetrix.com/) - [Home](readme/gtmetrix-index.png) [About](readme/gtmetrix-about.png) [Gallery](readme/gtmetrix-gallery.png) [Contact](readme/gtmetrix-contact.png)
+    - [GTMetrix](https://gtmetrix.com/) - [Home](assets/readme/gtmetrix-index.png) [About](assets/readme/gtmetrix-about.png) [Gallery](assets/readme/gtmetrix-gallery.png) [Contact](assets/readme/gtmetrix-contact.png)
 
   - #### Testing User Stories from User Experience (UX) Section
 
@@ -274,11 +274,11 @@ The purpose of this project was to create a small website for a fictional Montes
 
     1. This project was created from Code Institute project template from [here](https://github.com/Code-Institute-Org/gitpod-full-template) on github by clicking on "Use this template"
 
-        ![](readme/code-institute-project-template.png)
+        ![Pointing the template](assets/readme/code-institute-project-template.png)
 
     2. Once the project was created I remane it from settings 
 
-        ![](readme/remane-project-from-settings.png)
+        ![Pointing to settings](assets/readme/remane-project-from-settings.png)
 
     3. When repository was finally completed I open the project with [Gitpod](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki?hl=en) in Chrome browser
 

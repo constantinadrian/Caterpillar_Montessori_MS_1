@@ -33,14 +33,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
 
     <!-- Main css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
     <!-- Favicon -->
     <!-- Credit for code https://favicon.io/favicon-converter/ -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicon_io/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../assets/images/favicon_io/site.webmanifest">
     <!-- End Credit for code -->
 
     <!-- Page Title -->
@@ -50,8 +50,8 @@
     <header>
         <!-- Credit code Nav: From Boostrap 4.5/Components -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <a class="navbar-brand" href="index.html" aria-label="Caterpillar Montessori Logo">
-                <img class="logo" src="assets/images/logo.png" alt="Logo">
+            <a class="navbar-brand" href="../index.html" aria-label="Caterpillar Montessori Logo">
+                <img class="logo" src="../assets/images/logo.png" alt="Logo">
                 <span>Caterpillar Montessori</span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,13 +61,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link hvr-underline-from-center" href="index.html" aria-label="Home Page">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link hvr-underline-from-center" href="about.html" aria-label="About Us Page">About Us<span class="sr-only">(current)</span></a>
+                    <a class="nav-link hvr-underline-from-center" href="../index.html" aria-label="Home Page">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link hvr-underline-from-center" href="gallery.html" aria-label="Gallery Page">Gallery</a>
+                    <a class="nav-link hvr-underline-from-center" href="about.html" aria-label="About Us Page">About Us</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link hvr-underline-from-center" href="gallery.html" aria-label="Gallery Page">Gallery<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link hvr-underline-from-center" href="contact.html" aria-label="Contact Page">Contact</a>
@@ -75,141 +75,77 @@
             </ul>
             </div>
         </nav>
-        <!-- End Credit code -->
+        <!-- End Credit Code -->
     </header>
 
     <main class="main-container">
         <!-- Hero image section -->
-        <section id="about-hero-image-section">
-            <div class="about-hero-image-container">
+        <section id="gallery-hero-image-section">
+            <div class="gallery-hero-image-container">
                 <div class="opaque-overlay">
                     <div class="jumbotron text-center">
-                        <h2><sup><span><i class="fas fa-quote-left"></i></span></sup> Development is a series of rebirths. <sub><span><i class="fas fa-quote-right"></i></span></sub></h2>
+                        <h2><sup><span><i class="fas fa-quote-left"></i></span></sup> Respect all the reasonable forms of activity in which the child engages and try to understand them. <sub><span><i class="fas fa-quote-right"></i></span></sub></h2>
                     </div>
                 </div>
-            </div>
+            </div> 
         </section>
         <!-- /.Hero image section -->
 
-        <!-- Our mission section -->
-        <section id="our-mission">
-            <div class="container custom-container mt-5 mb-5 pt-4 pb-4">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 col-extra-padding">
-                        <h3>Our Mission</h3>
-                        <p>Caterpillar Montessori open its doors for the first time in 2012 to help the community from Portmarnock and surrounding area. We are pleased to say that after 8 years we have become a large childcare that provide the best service a child need.</p> 
-                        <p>Over the years we have provide a safe, secure and stimulating learning environment, where children can learn and grow at their own pace.</p>                        
+        <!-- Gallery section -->
+        <section id="gallery">
+            <div class="container pt-5">
+                <div class="row text-center">
+                    <div class="col">
+                        <h2 class="gallery-title">Our Gallery</h2>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-extra-padding">    
-                        <div class="our-mission-image"></div>
+                </div>
+            </div>
+            <div class="container gallery-container mt-5 mb-5">
+                <div class="gallery-flexbox">
+                    <div class="gallery-img-wrapper">
+                        <div class="gallery-img-box gallery-img-1"></div>
+                    </div>
+                    <div class="gallery-img-wrapper">
+                        <div class="gallery-img-box gallery-img-2"></div>
+                    </div>
+                    <div class="gallery-img-wrapper">
+                        <div class="gallery-img-box gallery-img-3"></div>
+                    </div>
+                    <div class="gallery-img-wrapper">
+                        <div class="gallery-img-box gallery-img-4"></div>
+                    </div>
+                    <div class="gallery-img-wrapper">
+                        <div class="gallery-img-box gallery-img-5"></div>
+                    </div>
+                    <div class="gallery-img-wrapper">
+                        <div class="gallery-img-box gallery-img-6"></div>
+                    </div>
+                    <div class="gallery-img-wrapper">
+                        <div class="gallery-img-box gallery-img-7"></div>
+                    </div>
+                    <div class="gallery-img-wrapper">
+                        <div class="gallery-img-box gallery-img-8"></div>
+                    </div>
+                    <div class="gallery-img-wrapper">
+                        <div class="gallery-img-box gallery-img-9"></div>
+                    </div>
+                    <div class="gallery-img-wrapper">
+                        <div class="gallery-img-box gallery-img-10"></div>
+                    </div>
+                    <div class="gallery-img-wrapper">
+                        <div class="gallery-img-box gallery-img-11"></div>
+                    </div>
+                    <div class="gallery-img-wrapper">
+                        <div class="gallery-img-box gallery-img-12"></div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- /.Our mission section -->
-
-        <!-- Our Values section -->
-        <section id="our-values">
-            <div class="container custom-container mt-5 mb-5 pt-4 pb-4">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-extra-padding">
-                        <div class="our-values-image"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 col-extra-padding">
-                        <h3>Our Values</h3>
-                        <p>Some of the key elements of good practice to support the learning and development of a child at Caterpillar Montessori are:</p>                       
-                        <ul>
-                            <li class="our-values-key-elements">Maria Montessori 5 principles:
-                                <ol>
-                                    <li class="five-principles">Respect for the Child.</li>
-                                    <li class="five-principles">The Absorbent Mind.</li>
-                                    <li class="five-principles">Sensitive Periods.</li>
-                                    <li class="five-principles">The Prepared Environment.</li>
-                                    <li class="five-principles">Auto education.</li>
-                                </ol>
-                            </li>
-                            <li class="our-values-key-elements">Our team which is selected with great care to meet our high standard of care. Each member of our team is high experience and have highly qualification that it will give you the peace of mind that your children are cared for with kindness and expertise.</li>
-                            <li class="our-values-key-elements">Our healthy lifestyle of nutritional meals, daily exercise and educational play promotes a healthy life for each child individually.</li>
-                        </ul>                       
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /.Our Values section -->
-
-        <!-- Our Services section -->
-        <section id="our-services">
-            <div class="container custom-container mt-5 mb-5 pt-4 pb-4">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 col-extra-padding">
-                        <h3>Our Services</h3>
-                        <p>We offer services for children aged between 2 years and 6 months - 5 years. Here at Caterpillar Montessori we provide 3 type of sessions:</p>      
-                        <ol>
-                            <li>Morning session 09:00 – 12:30.</li>
-                            <li>Afternoon session 12:45 – 16:15. </li>
-                            <li>Full day session 09:00 – 16:15.</li>
-                        </ol> 
-                        <p>HSE approved, Fully insured and we take part in the ECCE scheme.</p>                
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-extra-padding">    
-                        <div class="our-services-image"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /.Our Services section -->
-
-        <!-- ECCE Scheme section -->
-        <section id="ecce-scheme">
-            <div class="container custom-container mt-5 mb-5 pt-4 pb-4">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-extra-padding">
-                        <div class="ecce-scheme-image"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 col-extra-padding">
-                        <h3>ECCE Scheme</h3>
-                        <p>Caterpillar Montessori is a participant in the ECCE (Early Childhood Care & Education) scheme.</p>
-                        <p>Find more about the <a href="https://www.earlychildhoodireland.ie/work/information-parents/choosing-childcare/ecce-free-preschool-year/" target="_blank" rel="noopener noreferrer" aria-label="Early Childhood Ireland Website Parrents Information ECCE Scheme">ECCE scheme</a>.</p>                       
-                        <p>We offer high quality Montessori curriculum, a session of 3 hours in the morning or afternoon, 5 days a week, 38 weeks a year.</p>                       
-                        <p>There are flexible and optional additional services available that can suit your needs.</p>                                             
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /.ECCE Scheme section -->
-
-        <!-- Media section -->
-        <section id="our-educational-videos">
-            <div class="container custom-container mt-5 mb-5 pt-4 pb-4">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-extra-padding"> 
-                        <h3>Our educational / informative videos</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-4">
-                        <div class="video-container">
-                            <iframe title="Boy making a puzzle" src="https://player.vimeo.com/video/406089250?title=0&portrait=0&byline=0&autoplay=0&muted=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4">
-                        <div class="video-container">
-                            <iframe title="Playing with Play-Do" src="https://player.vimeo.com/video/406089195?title=0&portrait=0&byline=0&autoplay=0&muted=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4">
-                        <div class="video-container">
-                            <iframe title="Boy drawing" src="https://player.vimeo.com/video/406089204?title=0&portrait=0&byline=0&autoplay=00&muted=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /.Media section -->
+        <!-- /.Gallery section -->
     </main>
 
     <!-- Footer - Code taken and modified from mini project with bootstrap 4 - Matt Rudge "Resume Project" Code Institute -->
-    <footer>
+   <footer>
         <div class="container footer-container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 footer-info-col">
