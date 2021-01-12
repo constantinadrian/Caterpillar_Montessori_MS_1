@@ -371,6 +371,10 @@ The purpose of this project was to create a small website for a fictional Montes
 
         - https://pixabay.com/
 
+    - All 3 video used on this project were taken from:
+
+        - https://www.pexels.com/ - Videos by [Joseph Redfield](https://www.pexels.com/@inforexplore)
+
   - #### Acknowledgements
 
     - [Code Institute](https://codeinstitute.net/) for all course material 
