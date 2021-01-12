@@ -58,7 +58,23 @@
         }
         /* End credit code */
 
-        #error-hero-image-section h3 {
+        .jumbotron {
+            padding: 20px;
+            margin: 0;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+            background: transparent;
+            color: #fff;
+            font-family: "Courgette", cursive;
+        }
+
+        #error-hero-image-section h2 {
             font-size: 1.75rem;
         }
 
@@ -94,7 +110,7 @@
 
         /* Media Query */
         @media only screen and (min-width:768px) {
-            #error-hero-image-section h3 {
+            #error-hero-image-section h2 {
                 font-size: 2rem;
             }
             
