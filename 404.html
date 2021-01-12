@@ -33,14 +33,87 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
 
     <!-- Main css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .error-hero-image-container {
+            height: 100vh;
+            background: url('https://raw.githubusercontent.com/constantinadrian/Caterpillar_Montessori_MS_1/master/assets/images/error-hero-image.jpg') no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+                -o-background-size: cover;
+                    background-size: cover;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Credit code - from Matt Rudge "Whiskey Drop Project" Code Institute */
+        .opaque-overlay {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 100%;
+            width: 100%;
+        }
+        /* End credit code */
+
+        #error-hero-image-section h3 {
+            font-size: 1.75rem;
+        }
+
+        #error-hero-image-section h3 {
+            font-size: 1rem;
+        }
+
+        #error-hero-image-section .btn-lg {
+            font-size: 1rem;
+        }
+
+        /* Give margin and padding to the button */
+        .btn--cta {
+            margin-top: 5px;
+            border-radius: 25px;
+            padding: 10px 15px;
+        }
+
+        /* Style the button */
+        .btn--lemon-meringue {
+            background-color:  #EAE2B7;
+            color: #000;
+        }
+
+        .btn--lemon-meringue:hover,
+        .btn--lemon-meringue:active,
+        .btn--lemon-meringue:focus,
+        .btn--lemon-meringue:active:focus {
+            background-color: #003049;
+            border-color: #EAE2B7;
+            color: #fff;
+        }
+
+        /* Media Query */
+        @media only screen and (min-width:768px) {
+            #error-hero-image-section h3 {
+                font-size: 2rem;
+            }
+            
+            #error-hero-image-section h3 {
+                font-size: 1.5rem;
+            }
+            
+            #error-hero-image-section .btn-lg {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
 
     <!-- Favicon -->
     <!-- Credit for code https://favicon.io/favicon-converter/ -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicon_io/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/constantinadrian/Caterpillar_Montessori_MS_1/master/assets/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/constantinadrian/Caterpillar_Montessori_MS_1/master/assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/constantinadrian/Caterpillar_Montessori_MS_1/master/assets/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="https://github.com/constantinadrian/Caterpillar_Montessori_MS_1/blob/master/assets/images/favicon_io/site.webmanifest">
     <!-- End Credit for code -->
 
     <!-- Page Title -->
@@ -54,7 +127,7 @@
                 <div class="jumbotron text-center">
                     <h2>Oops!</h2>
                     <h3>This isn't what you are looking for!</h3>
-                    <a href="index.html" class="btn btn-lg btn--cta btn--lemon-meringue" aria-label="Visit Homepage Page">Visit Homepage</a>
+                    <a href="https://constantinadrian.github.io/Caterpillar_Montessori_MS_1/" class="btn btn-lg btn--cta btn--lemon-meringue" aria-label="Visit Homepage Page">Visit Homepage</a>
                 </div>
             </div>
         </div> 
