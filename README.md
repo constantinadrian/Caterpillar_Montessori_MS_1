@@ -28,7 +28,7 @@ The purpose of this project was to create a small website for a fictional Montes
 
  - #### Strategy
 
-    - The strategy for having a website is to attract new families and to provide them with information about the services that we have. Having a Montessori website could potentialy generate more income to our Montessori and you’re ahead of your competitors.
+    - The strategy for having a website is to attract new families and to provide them with information about the services that we have. Having a Montessori website could potentially generate more income to our Montessori and you’re ahead of your competitors.
     
  - #### Scope
 
@@ -36,7 +36,7 @@ The purpose of this project was to create a small website for a fictional Montes
 
     - Provide users with the essential information and keep it simple not to overwhelm with too much content.
 
-    - Provide testemonials from current and past parrents
+    - Provide testimonials from current and previous parents
     
     - Provide with call to action to enroll or contact the Montessori
 
@@ -50,7 +50,7 @@ The purpose of this project was to create a small website for a fictional Montes
     
         The website it's structure on four pages. 
 
-        1. Home Page - On home page the user can find multiple buttons for call to action, small information about Montessori and activities and testemonials.
+        1. Home Page - On home page the user can find multiple buttons for call to action, small information about Montessori and activities and testimonials.
 
         2. About Us Page - Where users can find more information about our Montessori like: our mission, values, our services and Early Childhood Care and Education Programme (ECCE) and our educational / informative videos 
 
@@ -64,7 +64,7 @@ The purpose of this project was to create a small website for a fictional Montes
 
         - On the footer of the website the user can find information on how to contact the Montessori, find us on social media or redirect them to other page sections.
 
-        - Finaly 404 Page - was added in case users direct to a page that does not exist. This was one of the critiria 
+        - Finally 404 Page - was added in case users direct to a page that does not exist. This was one of the criteria 
 
       - ##### Future Features to Implement:
 
@@ -90,7 +90,7 @@ The purpose of this project was to create a small website for a fictional Montes
 
             - The primary color that I choice is lemon-meringue because it inspires: Positivity, Purity and is the symbol of Happiness and Optimism.
 
-            - The secondary color I used is prussian-blue because it is often associated with Stability and it symbolizes Trust, Loyalty and Confidence.
+            - The secondary color I used is Prussian-blue because it is often associated with Stability and it symbolizes Trust, Loyalty and Confidence.
 
             - The final color I choose is white to be neutral backdrop to the text and other elements that I used on the page (images) and because White represents Purity and Innocence.
 
@@ -102,7 +102,7 @@ The purpose of this project was to create a small website for a fictional Montes
 
     -  ##### Imagery
 
-        - Because imagery is important I have carefully chosse the background hero image to catch the user's attention.
+        - Because imagery is important I have carefully choose the background hero image to catch the user's attention.
 
 - ### Technologies Used:
 
@@ -130,7 +130,7 @@ The purpose of this project was to create a small website for a fictional Montes
 
     - [VS Code](https://code.visualstudio.com/) - IDE used when Gitpod was having technical issues and run out of hours on Gitpod
 
-    - [Autoprefixer CSS](https://autoprefixer.github.io/) - used to add prefix to css code
+    - [Autoprefixer CSS](https://autoprefixer.github.io/) - used to add prefix to CSS code
 
     - [Tinypng](https://tinypng.com/) - used to compress all image files in order to reduce loading time on each page
 
@@ -190,17 +190,17 @@ The purpose of this project was to create a small website for a fictional Montes
 
         2. The main points are made immediately with the Hero Image and the text.
 
-        3. The users has two options, click the call to action button or to scroll down to learn more about the organisation.
+        3. The users has two options, click the call to action button or to scroll down to learn more about the organization.
 
       - As a first-time visitor I want to be able to easily navigate through the site.
 
         1. The site has been designed to be fluid and never to entrap the user thus I have made the navigation bar fixed so the user can easily used when needed
 
-        2. At the bottom of each page there are link that could easily redirect the users to diffent pages.
+        2. At the bottom of each page there are link that could easily redirect the users to different pages.
 
       - As a first-time visitor I want to find testimonials from established clients.
 
-        1. As the users scroll down the home page immediately after the why choose us section they will find What Parrents Say section where they can read the testemonials 
+        1. As the users scroll down the home page immediately after the why choose us section they will find What Parents Say section where they can read the testimonials 
 
     II.	Returning User Goals:
 
@@ -220,7 +220,7 @@ The purpose of this project was to create a small website for a fictional Montes
 
   - #### Testing on Different Browsers
 
-    - The following web browsers were used for testing the browser compatibility and responsive (System:Windows 10 64-bit).
+    - The following web browsers were used for testing the browser compatibility and responsive (System: Windows 10 64-bit).
 
         1. Chrome - Version 87.0
 
@@ -264,7 +264,7 @@ The purpose of this project was to create a small website for a fictional Montes
             permalink: /404.html
             ---
             ```
-    - On Iphone 5S (IOS 10.2.1) the hover efect on the cards on "Why Choose Us" section does not work and the user can't see the text that it's hidden when interact on the card. 
+    - On Iphone 5S (IOS 10.2.1) the hover effect on the cards on "Why Choose Us" section does not work and the user can't see the text that it's hidden when interact on the card. 
 
         - After multiple search I found that the hover effect does not work across all mobile devices, only the latest, as this efect was only for desktops.
     
@@ -272,26 +272,26 @@ The purpose of this project was to create a small website for a fictional Montes
 
   - #### Inception project 
 
-    1. This project was created from Code Institute project template from [here](https://github.com/Code-Institute-Org/gitpod-full-template) on github by clicking on "Use this template"
+    1. This project was created from Code Institute project template from [here](https://github.com/Code-Institute-Org/gitpod-full-template) on GitHub by clicking on "Use this template"
 
         ![Pointing the template](assets/readme/code-institute-project-template.png)
 
-    2. Once the project was created I remane it from settings 
+    2. Once the project was created I rename it from settings 
 
         ![Pointing to settings](assets/readme/remane-project-from-settings.png)
 
     3. When repository was finally completed I open the project with [Gitpod](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki?hl=en) in Chrome browser
 
-    4. In order to push this project from Gitpod on Github a set of commands were used:
+    4. In order to push this project from Gitpod on GitHub a set of commands were used:
 
         ```
         - git status  - Check the status of the repository and see if there were any changes in files 
 
         - git add .  - Add the files that were modified/created, so we can commit it 
 
-        - git commit -m "messsage for commit"  - Commits all the changes
+        - git commit -m "message for commit"  - Commits all the changes
 
-        - git push  - Pushes all committed versions to Github
+        - git push  - Pushes all committed versions to GitHub
         ```
 
   - #### GitHub Pages
@@ -302,11 +302,11 @@ The purpose of this project was to create a small website for a fictional Montes
 
         2. At the top of repository click on "Settings"
 
-        3. Once you are in settings scroll down to "Github Pages" 
+        3. Once you are in settings scroll down to "GitHub Pages" 
 
         4. Under "Source", click the dropdown called "None" and select "Master Branch".
 
-        5. After the page automatically refresh scroll down again on "Github Pages" and I will see live link to the published site.
+        5. After the page automatically refresh scroll down again on "GitHub Pages" and I will see live link to the published site.
 
   - #### Local Clone
 
@@ -329,7 +329,7 @@ The purpose of this project was to create a small website for a fictional Montes
     - Credit code for Hero image animation - taken and modified from Brian O'Grady Love Running [Code Institute](https://codeinstitute.net/) 
 
     - Credit code for opaque-overlay used for Hero Image on index page, about and gallery page - from Matt Rudge "Whiskey Drop Project" [Code Institute](https://codeinstitute.net/) 
-    - [Bootstrap](https://getbootstrap.com/) - for navbar, carousel, cards, grid system, forms, modal and all other clases that I used for making the project responsive.
+    - [Bootstrap](https://getbootstrap.com/) - for navbar, carousel, cards, grid system, forms, modal and all other classes that I used for making the project responsive.
 
     - [Favicon](https://favicon.io/favicon-converter/) - for quickly generate the favicon and given the code for use in this project
 
