@@ -64,6 +64,8 @@ The purpose of this project was to create a small website for a fictional Montes
 
         - On the footer of the website the user can find information on how to contact the Montessori, find us on social media or redirect them to other page sections.
 
+        - Finaly 404 Page - was added in case users direct to a page that does not exist. This was one of the critiria 
+
       - ##### Future Features to Implement:
 
         -  Add Sign in page to allow existing users to view the personal updates, photos about their child and to communicate to child teacher more often
@@ -228,9 +230,19 @@ The purpose of this project was to create a small website for a fictional Montes
 
         5. IE - Version 20H2
 
+        All test was good. 
+
   - #### Testing on Different Devices
 
-    1. 
+    1. Iphone 11 - IOS 14.0.1
+
+    2. Ipad Mini 2 - IOS 12.4.8 
+
+    3. Huawei P Smart
+
+    4. Iphone 5S - IOS 10.2.1
+
+    All test was good except the Iphone 5S (see Bugs)
 
   - A large amount of testing was done to ensure that all pages were linked correctly.
 
@@ -239,7 +251,21 @@ The purpose of this project was to create a small website for a fictional Montes
     - On IE all hero image from carousel from index page were stretched.
 
         - The img tag was remove as object-fit property didn't have support in IE and was replace with div tag with a class attribute in order to set up background image. All images were display correctly after.
-       
+
+    - When added the 404.html Page - the page was not working after multiple attends 
+
+        - On Slack community there was a pinned info about the 404 functionality. All I had to do was to create a 404.md file and place it with the 404.html in the root folder. Even so the 404 Page was working when the redirect was from index.html page as the other pages was move into a folder call "pages". After move all the pages back to root folder the 404 Page was working correctly when the mistype was on any of the pages.
+
+            The 404.md file content:
+            ```
+            ---
+            permalink: /404.html
+            ---
+            ```
+    - On Iphone 5S (IOS 10.2.1) the hover efect on the cards on "Why Choose Us" section does not work and the user can't see the text that it's hidden when interact on the card. 
+
+        - After multiple search I found that the hover effect does not work across all mobile devices, only the latest, as this efect was only for desktops.
+    
 - ### Deployment
 
   - #### Inception project 
@@ -301,8 +327,7 @@ The purpose of this project was to create a small website for a fictional Montes
     - Credit code for Hero image animation - taken and modified from Brian O'Grady Love Running [Code Institute](https://codeinstitute.net/) 
 
     - Credit code for opaque-overlay used for Hero Image on index page, about and gallery page - from Matt Rudge "Whiskey Drop Project" [Code Institute](https://codeinstitute.net/) 
-
-    - [Bootstrap](https://getbootstrap.com/) - for navbar, carousel, cards, grid system and all other clases that I used for making the project responsive.
+    - [Bootstrap](https://getbootstrap.com/) - for navbar, carousel, cards, grid system, forms, modal and all other clases that I used for making the project responsive.
 
     - [Favicon](https://favicon.io/favicon-converter/) - for quickly generate the favicon and given the code for use in this project
 
@@ -345,5 +370,7 @@ The purpose of this project was to create a small website for a fictional Montes
   - #### Acknowledgements
 
     - [Code Institute](https://codeinstitute.net/) for all course material 
+
+    - Slack community
 
     - My mentor Oluwafemi Medale for his support and feedback that he give me for this milestone project.

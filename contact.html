@@ -36,19 +36,21 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Favicon -->
+    <!-- Credit for code https://favicon.io/favicon-converter/ -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="assets/images/favicon_io/site.webmanifest">
+    <!-- End Credit for code -->
 
     <!-- Page Title -->
     <title>Caterpillar Montessori</title>
 </head>
 <body>
     <header>
-        <!-- Nav: From Boostrap 4.5/Components -->
+        <!-- Credit code Nav: From Boostrap 4.5/Components -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.html" aria-label="Caterpillar Montessori Logo">
                 <img class="logo" src="assets/images/logo.png" alt="Logo">
                 <span>Caterpillar Montessori</span>
             </a>
@@ -59,20 +61,21 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link hvr-underline-from-center" href="index.html">Home</a>
+                    <a class="nav-link hvr-underline-from-center" href="index.html" aria-label="Home Page">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link hvr-underline-from-center" href="about.html">About Us</a>
+                    <a class="nav-link hvr-underline-from-center" href="about.html" aria-label="About Us Page">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link hvr-underline-from-center" href="gallery.html">Gallery</a>
+                    <a class="nav-link hvr-underline-from-center" href="gallery.html" aria-label="Gallery Page">Gallery</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link hvr-underline-from-center" href="contact.html">Contact</a>
+                    <a class="nav-link hvr-underline-from-center" href="contact.html" aria-label="Contact Page">Contact<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
             </div>
         </nav>
+        <!-- End Credit Code -->
     </header>
 
     <main class="main-container">
@@ -139,34 +142,29 @@
                             <div class="contact-flebox-item-flex-row-content-wrapper">
                                 <div class="contact-flebox-item-flex-row-content-social text-center">
                                     <h3 class="contact-flexbox-content-social-title">Let's get in touch</h3>
-                                    
                                     <ul class="list-inline social-icon-links">
                                         <li class="list-inline-item">
-                                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Our Facebook">
                                                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                                <span class="sr-only">Facebook</span>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Our Twitter">
                                                 <i class="fab fa-twitter" aria-hidden="true"></i>
-                                                <span class="sr-only">Twitter</span>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                                            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="Our Youtube">
                                                 <i class="fab fa-youtube" aria-hidden="true"></i>
-                                                <span class="sr-only">YouTube</span>
                                             </a>
                                         </li>
                                     </ul>
-
                                 </div>
                             </div>
                             <div class="contact-flebox-item-flex-row-content-wrapper">
                                 <div class="contact-flebox-item-flex-row-content-form">
                                     <h4>Send Us A Message</h4>
-                                    <form id="contact-form" autocomplete="off">
+                                    <form id="contact-form" autocomplete="off" aria-label="Contact Form">
                                         <div class="form-group">
                                             <label for="full_name">Your Full Name</label>
                                             <input type="text" class="form-control" id="full_name" required>
@@ -186,7 +184,7 @@
                                         
                                         <div class="row">
                                             <div class="col-md-12 text-center">
-                                                <button type="submit" class="btn btn--cta-contact btn--contact-prussian-blue">Submit</button>
+                                                <button type="submit" class="btn btn--cta-contact btn--contact-prussian-blue" aria-label="Submit Form">Submit</button>
                                             </div>
                                         </div>                 
                                     </form>
@@ -212,7 +210,7 @@
     </main>
 
     <!-- Footer - Code taken and modified from mini project with bootstrap 4 - Matt Rudge "Resume Project" Code Institute -->
-    <footer>
+   <footer>
         <div class="container footer-container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 footer-info-col">
@@ -220,19 +218,19 @@
                     <hr>
                     <ul class="footer-links contact-links">
                         <li class="contact-links-item">
-                            <a href="https://goo.gl/maps/E1JRaWLaoyzDQczKA" target="_blank" rel="noopener noreferrer">
+                            <a href="https://goo.gl/maps/E1JRaWLaoyzDQczKA" target="_blank" rel="noopener noreferrer" aria-label="Our Location on Google Map">
                                 <i class="fas fa-map-marker-alt fa-lg" aria-hidden="true"></i>
                                 The Stables Office Park, Strand Road, Burrow, Portmarnock, County Dublin
                             </a>
                         </li>
                         <li class="contact-links-item">
-                            <a href="tel:+012345678">
+                            <a href="tel:+012345678" aria-label="Our Phone Number">
                                 <i class="fas fa-phone-alt" aria-hidden="true"></i>
                                 012 345678
                             </a>
                         </li>
                         <li class="contact-links-item">
-                            <a href="mailto:caterpillar@montessori.ie">
+                            <a href="mailto:caterpillar@montessori.ie" aria-label="Our Email Address">
                                 <i class="fas fa-at" aria-hidden="true"></i>
                                 caterpillar@montessori.ie
                             </a>
@@ -244,39 +242,36 @@
                     <hr>
                     <ul class="footer-links support-links">
                         <li class="support-links-item">
-                            <a href="about.html#ecce-scheme">ECCE Scheme</a>
+                            <a href="about.html#ecce-scheme" aria-label="ECCE Scheme section On About Us Page">ECCE Scheme</a>
                         </li>
                         <li class="support-links-item">
-                            <a href="about.html#our-services">Our Services</a>
+                            <a href="about.html#our-services" aria-label="Our Services section On About Us Page">Our Services</a>
                         </li>
                         <li class="support-links-item">
-                            <a href="about.html#our-educational-videos">Our educational videos</a>
+                            <a href="about.html#our-educational-videos" aria-label="Our Educational Videos section On About Us Page">Our educational videos</a>
                         </li>
                         <li class="support-links-item">
-                            <a href="contact.html">Contact Us</a>
+                            <a href="contact.html" aria-label="Contact Page">Contact Us</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 footer-info-col">
+                <div class="col-xs-12 col-sm-6 col-md-4 footer-info-col">
                     <h3 class="text-uppercase footer-heading">Social</h3>
                     <hr>
                     <ul class="list-inline social-icon-links">
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Our Facebook">
                                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Our Twitter">
                                 <i class="fab fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="Our Youtube">
                                 <i class="fab fa-youtube" aria-hidden="true"></i>
-                                <span class="sr-only">YouTube</span>
                             </a>
                         </li>
                     </ul>
