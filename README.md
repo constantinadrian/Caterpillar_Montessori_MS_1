@@ -266,7 +266,9 @@ The purpose of this project was to create a small website for a fictional Montes
             ```
     - On Iphone 5S (IOS 10.2.1) the hover effect on the cards on "Why Choose Us" section does not work and the user can't see the text that it's hidden when interact on the card. 
 
-        - After multiple search I found that the hover effect does not work across all mobile devices, only the latest, as this efect was only for desktops.
+        - After multiple search I found that the hover effect does not work across all mobile devices, only the latest, as this effect was only for desktops.
+
+    No other bugs that I'm aware off was found.
     
 - ### Deployment
 
