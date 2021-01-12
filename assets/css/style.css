@@ -786,7 +786,7 @@ iframe {
     margin-bottom: 1.5rem;
 }
 
-/* About containers images */
+/* ----------- Each section image - About Page ----------- */
 .our-mission-image {
     min-height: 230px;
     background: url('../images/our-mission.jpg') no-repeat center center scroll;

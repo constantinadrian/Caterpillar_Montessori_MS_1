@@ -142,6 +142,8 @@ The purpose of this project was to create a small website for a fictional Montes
 
     - [Balsamiq](https://balsamiq.com/) - used to make the wireframes for the project
 
+    - [Coolors](https://coolors.co/) - used for color palette
+
     - [Favicon](https://favicon.io/favicon-converter/) - for favicon used on this project
 
 - ### Testing
